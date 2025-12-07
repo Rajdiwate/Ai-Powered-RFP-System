@@ -1,0 +1,23 @@
+
+# API Testing
+rest-client
+
+# Build output
+dist/
+
+# Node modules
+node_modules/
+
+
+# Environment files
+.env
+.env.development
+.env.production
+
+# Lock files
+package-lock.json
+package.json
+
+# Ignore specific config files
+.eslintrc.js
+tsconfig.json
