@@ -1,15 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { RfpPage } from '@/components/pages';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <h1>Hello</h1>,
-    // children: [
-    //   {
-    //     path: '',
-    //     element: <>Hello</>,
-    //   },
-    // ],
+    element: <RfpPage />,
   },
 ]);
 
